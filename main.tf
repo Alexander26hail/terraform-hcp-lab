@@ -10,7 +10,7 @@ variable "environment" {
 }
 
 resource "random_pet" "app" {
-  length = 2
+  length = 3
 }
 
 output "app_name" {
