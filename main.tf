@@ -6,7 +6,7 @@ terraform {
 
 variable "environment" {
   type    = string
-  default = "dev"
+  default = "staging"
 }
 
 resource "random_pet" "app" {
